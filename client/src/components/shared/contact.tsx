@@ -47,6 +47,7 @@ export const Contact = () => {
           <Link
             key={index}
             to={url}
+            target="_blank"
             className="w-20 h-20 p-4 rounded-lg flex items-center justify-center transition-colors duration-300"
             style={{ backgroundColor }}
             onMouseEnter={(e) => {
@@ -58,7 +59,7 @@ export const Contact = () => {
                 backgroundColor
             }}
           >
-            <img src={image} alt="image" className="w-10 h-10" />
+            <img src={image} alt="image" className="w-10 h-10 object-cover object-center" />
           </Link>
         ))}
       </div>
