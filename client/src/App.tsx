@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       </div>
-      <h1 className="text-center pt-40 pb-10 font-semibold">© 2025 umars.faith</h1>
+      <h1 className="text-center pt-40 pb-10 font-semibold">© 2025 biohazard.uz</h1>
   </>
   )
 }
