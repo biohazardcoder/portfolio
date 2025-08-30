@@ -4,6 +4,7 @@ import { Navbar } from "./components/shared/navbar"
 import { Blog } from "./pages/blog"
 import { BlogDetail } from "./pages/blog-detail"
 import { Portfolio } from "./pages/portfolio"
+import { Security } from "./pages/security"
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/security" element={<Security />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
